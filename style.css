@@ -39,7 +39,7 @@ nav{
 .logo span{
     /* font-size: 70px; */
     /* color: #7f00ff; */
-    color: #0077ff;
+    color: #ffba00;
 }
 .navItems{
     display: flex;
@@ -83,7 +83,7 @@ nav{
     left: -12%;
     top: 40%;
     /* background: linear-gradient(45deg, #7f00ff,pink); */
-    background: linear-gradient(45deg, #0077ff,pink);
+    background: linear-gradient(45deg, #ffba00,pink);
     animation: object1 6s linear infinite;
 }
 .wrapper::after{
@@ -95,19 +95,19 @@ nav{
     left: 35%;
     top: 12%;
     /* background: linear-gradient(45deg, #7f00ff,pink); */
-    background: linear-gradient(45deg, #0077ff,pink);
+    background: linear-gradient(45deg, #ffba00,pink);
     animation: object2 6s linear infinite;
 }
 
 @keyframes object1 {
-    100%{
+    50%{
         left: -13%;
         top: 31%;;
     }  
 }
 
 @keyframes object2 {
-    100%{
+    50%{
         left: 35%;
         top: 10%;;
     }  
@@ -138,7 +138,7 @@ nav{
     width: 50px;
     bottom: 10px;
     /* background-color: #7f00ff; */
-    background-color: #0077ff;
+    background-color: #ffba00;
 }
 h1{
     display: block;
@@ -148,7 +148,7 @@ h1{
 }
 .multiText{
     /* color:#7f00ff; */
-    color:#0077ff;
+    color:#ffba00;
     text-transform: capitalize;
 }
 p{
@@ -182,7 +182,7 @@ p{
 
 .button:hover{
     /* background-color: #7f00ff; */
-    background-color: #0077ff;
+    background-color: #ffba00;
 }
 /* .imgbox{
     position: relative;
@@ -213,7 +213,7 @@ p{
 }
 
 @keyframes animateUser {
-    100%{
+    50%{
         right: 30px;
         top: 40px;
     } 
@@ -224,13 +224,13 @@ p{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(-35deg);
-    width: 100%;
+    width: 160%;
     filter: saturate(200%);
     animation: animate 4s linear infinite;
 }
 
 @keyframes animate {
-    100%{
+    50%{
         top: 49%;
         left: 51%;
         width: 155%;
