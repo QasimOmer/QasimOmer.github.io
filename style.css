@@ -213,7 +213,7 @@ p{
 }
 
 @keyframes animateUser {
-    50%{
+    100%{
         right: 30px;
         top: 40px;
     } 
@@ -224,13 +224,13 @@ p{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(-35deg);
-    width: 160%;
+    width: 100%;
     filter: saturate(200%);
     animation: animate 4s linear infinite;
 }
 
 @keyframes animate {
-    50%{
+    100%{
         top: 49%;
         left: 51%;
         width: 155%;
