@@ -115,7 +115,7 @@ nav{
 
 
 .cols{
-    width: 100%;
+    width: 50%;
 }
 
 .cols0{
@@ -153,7 +153,7 @@ h1{
 }
 p{
     display:block;
-    width: 100%;
+    width: 90%;
     font-size: 1.2em;
     color: #000;
 }
@@ -199,7 +199,7 @@ p{
 } */
 .imgbox {
     position: relative;
-    width: 100%; /* Change width to 50% */
+    width: 90%; /* Change width to 50% */
     height: auto; /* Change height to auto */
 }
 
@@ -233,14 +233,14 @@ p{
     100%{
         top: 49%;
         left: 51%;
-        width: 100%;
+        width: 155%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .navItems {
       display: none;
-      margin-bottom: 100%;;
+      margin-bottom: 10px;;
     }
     .links{
         display: none;
@@ -252,7 +252,7 @@ p{
   
     .links a {
       font-size: 20px;
-      margin: 15px :
+      margin: 15px 5px;
     }
     
     .wrapper{
@@ -267,7 +267,7 @@ p{
         position: absolute;
         content: '';
         height: 400px;
-        width: 100%;
+        width: 400px;
         border-radius: 50%;
         left: -24%;
         top: 50%;
@@ -285,32 +285,32 @@ p{
   
     .topLine {
       font-size: 30px;
-      
+      margin-bottom: 0.5em;
     }
   
     h1 {
       font-size: 2em;
-      
+      margin-bottom: 0.5em;
 
     }
   
     p {
       width: 100%;
       font-size: 1em;
-      margin-bottom: 0%;
+      margin-bottom: 2em;
 
     }
   
     .btns {
       left: 0;
-      margin-top: 0%;
-      margin-bottom: 0%;
+      margin-top: 1em;
+      margin-bottom: 2em;
     }
   
     .button {
       font-size: 20px;
       padding: 6px 10px;
-      margin: 0%;
+      margin: 20px 5px;
     }
   
     .imgbox img {
