@@ -39,7 +39,7 @@ nav{
 .logo span{
     /* font-size: 70px; */
     /* color: #7f00ff; */
-    color: #0077ff;
+    color: #0062ff;
 }
 .navItems{
     display: flex;
@@ -83,7 +83,7 @@ nav{
     left: -12%;
     top: 40%;
     /* background: linear-gradient(45deg, #7f00ff,pink); */
-    background: linear-gradient(45deg, #0077ff,pink);
+    background: linear-gradient(45deg, #0062ff,pink);
     animation: object1 6s linear infinite;
 }
 .wrapper::after{
