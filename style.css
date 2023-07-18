@@ -58,7 +58,7 @@ nav{
 .navItems li:hover a,
 .links a:hover{
     /* color: #7f00ff ; */
-    color: #ffba00 ;
+    color: #0062ff ;
 }
 .links a{
     font-size: 25px;
@@ -95,7 +95,7 @@ nav{
     left: 35%;
     top: 12%;
     /* background: linear-gradient(45deg, #7f00ff,pink); */
-    background: linear-gradient(45deg, #0077ff,pink);
+    background: linear-gradient(45deg, #0062ff,pink);
     animation: object2 6s linear infinite;
 }
 
@@ -138,7 +138,7 @@ nav{
     width: 50px;
     bottom: 10px;
     /* background-color: #7f00ff; */
-    background-color: #0077ff;
+    background-color: #0062ff;
 }
 h1{
     display: block;
@@ -148,7 +148,7 @@ h1{
 }
 .multiText{
     /* color:#7f00ff; */
-    color:#0077ff;
+    color:#0062ff;
     text-transform: capitalize;
 }
 p{
@@ -182,7 +182,7 @@ p{
 
 .button:hover{
     /* background-color: #7f00ff; */
-    background-color: #0077ff;
+    background-color: #0062ff;
 }
 /* .imgbox{
     position: relative;
