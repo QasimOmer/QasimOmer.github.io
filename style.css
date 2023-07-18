@@ -39,7 +39,7 @@ nav{
 .logo span{
     /* font-size: 70px; */
     /* color: #7f00ff; */
-    color: hsl(216, 100%, 50%);
+    color: #0077ff;
 }
 .navItems{
     display: flex;
@@ -58,7 +58,7 @@ nav{
 .navItems li:hover a,
 .links a:hover{
     /* color: #7f00ff ; */
-    color: hsl(216, 100%, 50%) ;
+    color: #ffba00 ;
 }
 .links a{
     font-size: 25px;
@@ -83,7 +83,7 @@ nav{
     left: -12%;
     top: 40%;
     /* background: linear-gradient(45deg, #7f00ff,pink); */
-    background: linear-gradient(45deg, hsl(216, 100%, 50%),pink);
+    background: linear-gradient(45deg, #0077ff,pink);
     animation: object1 6s linear infinite;
 }
 .wrapper::after{
@@ -95,7 +95,7 @@ nav{
     left: 35%;
     top: 12%;
     /* background: linear-gradient(45deg, #7f00ff,pink); */
-    background: linear-gradient(45deg, hsl(216, 100%, 50%),pink);
+    background: linear-gradient(45deg, #0077ff,pink);
     animation: object2 6s linear infinite;
 }
 
@@ -138,7 +138,7 @@ nav{
     width: 50px;
     bottom: 10px;
     /* background-color: #7f00ff; */
-    background-color: hsl(216, 100%, 50%);
+    background-color: #0077ff;
 }
 h1{
     display: block;
@@ -148,7 +148,7 @@ h1{
 }
 .multiText{
     /* color:#7f00ff; */
-    color:hsl(216, 100%, 50%);
+    color:#0077ff;
     text-transform: capitalize;
 }
 p{
@@ -182,7 +182,7 @@ p{
 
 .button:hover{
     /* background-color: #7f00ff; */
-    background-color: hsl(216, 100%, 50%);
+    background-color: #0077ff;
 }
 /* .imgbox{
     position: relative;
