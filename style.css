@@ -237,13 +237,13 @@ p{
     }
 }
 
-@media screen and (max-width: 420px) {
+@media only screen and (max-width: 420px) {
     .navItems {
       display: none;
       margin-bottom: 10px;;
     }
     .links{
-        display: none;
+        display: 10px;
     }
   
     .logo {
@@ -251,17 +251,17 @@ p{
     }
   
     .links a {
-      font-size: 20px;
+      font-size: 10px;
       margin: 15px 5px;
     }
     
     .wrapper{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         height: auto;
     }
      .wrapper::after{
-        display: none;
+        display: 10px;
     }
      .wrapper::before{
         position: absolute;
@@ -320,7 +320,7 @@ p{
     }
   
     .imgbox #splash {
-        display: none;
+        display: 10px;
     }
   }
   
