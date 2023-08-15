@@ -237,7 +237,7 @@ p{
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 420px) {
     .navItems {
       display: none;
       margin-bottom: 10px;;
