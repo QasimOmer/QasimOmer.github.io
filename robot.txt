@@ -1,0 +1,38 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+Sitemap: https:/mqasimomer.me/index.html
+
+User-agent: Googlebot
+Disallow: /*.xls$
+
+User-agent: *
+Disallow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: Googlebot
+Disallow: /*.gif$
+
+User-agent: Googlebot-Image
+Disallow: /
+
+User-agent: Googlebot-Image
+Disallow: /images/dogs.jpg
+
+User-agent: *
+Disallow: /
+Allow: /public/
+
+User-agent: *
+Disallow: /useless_file.html
+Disallow: /junk/other_useless_file.html
+
+User-agent: *
+Disallow: /calendar/
+Disallow: /junk/
+Disallow: /books/fiction/contemporary/
