@@ -238,7 +238,7 @@ p{
 }
 @media only screen and (max-width: 375px), only screen and (min-height: 812px) and (max-height: 812px) and (orientation: landscape) {
     .navItems {
-        flex-direction: column;
+        flex-direction: row;
         margin-bottom: 10px;
     }
     
@@ -276,18 +276,18 @@ p{
     }
     
     .topLine {
-        font-size: 30px;
+        font-size: 10px;
         margin-bottom: 0.5em;
     }
     
     h1 {
-        font-size: 2em;
+        font-size: 10px;
         margin-bottom: 0.5em;
     }
     
     p {
         width: 100%;
-        font-size: 1em;
+        font-size: 10px;
         margin-bottom: 2em;
     }
     
@@ -298,7 +298,7 @@ p{
     }
     
     .button {
-        font-size: 20px;
+        font-size: 10px;
         padding: 2px 5px;
         margin: 10px 2.5px;
     }
