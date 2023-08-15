@@ -297,7 +297,7 @@ p{
     }
   
     p {
-      width: 100%;
+      width: 100vm;
       font-size: 1em;
       margin-bottom: 2em;
 
@@ -311,18 +311,18 @@ p{
   
     .button {
       font-size: 20px;
-      padding: 6px 10px;
-      margin: 20px 5px;
+      padding: 2px 5px;
+      margin: 10px 2.5px;
     }
   
     .imgbox img {
-      width: 100%;
+      width: 10vm;
       top: 0;
       right: 0;
     }
   
     .imgbox #splash {
-        display: 10px;
+        display: 25vm;
     }
   }
   
