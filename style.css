@@ -243,7 +243,7 @@ p{
     }
     
     .logo {
-        font-size: 25px;
+        font-size: 15px;
     }
     
     .links a {
@@ -254,7 +254,7 @@ p{
     .wrapper {
         flex-direction: row;
         height: auto;
-        padding: 0 5%;
+        padding: 0 5px;
     }
     
     .wrapper::before {
@@ -262,6 +262,7 @@ p{
         width: 100px;
         left: -24%;
         top: 50%;
+        /* Adjust this negative left value based on your design */
     }
     
     .cols {
@@ -271,8 +272,6 @@ p{
     .cols0,
     .cols1 {
         padding-left: 12px;
-        padding-left: max(12px, env(safe-area-inset-left));
-        padding-right: max(12px, env(safe-area-inset-right));
     }
     
     .topLine {
@@ -310,6 +309,6 @@ p{
     }
     
     .imgbox #splash {
-        display: 25%;
+        display: none;
     }
 }
